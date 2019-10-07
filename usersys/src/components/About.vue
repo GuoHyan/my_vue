@@ -1,0 +1,24 @@
+<template>
+  <div class="about container">
+      关于用户信息About
+      <h4 class="page-header header">About</h4>
+  </div>
+</template>
+
+<script>
+export default {
+  name:'about',
+  data () {
+    return {
+
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.header{
+    color: steelblue;
+}
+</style>
